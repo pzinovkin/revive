@@ -26,7 +26,6 @@ var defaultRules = []lint.Rule{
 	&rule.PackageCommentsRule{},
 	&rule.DotImportsRule{},
 	&rule.BlankImportsRule{},
-	&rule.ExportedRule{},
 	&rule.VarNamingRule{},
 	&rule.IndentErrorFlowRule{},
 	&rule.IfReturnRule{},
